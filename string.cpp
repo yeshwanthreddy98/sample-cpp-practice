@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 
-    // string x = "abc";
+    string x = "abc";
     // char *p = new char[4];
     // strcpy(p,"abcd");
     // // *p = 'k';
@@ -18,11 +18,11 @@ int main()
 
     // x[0] =
 
-    // // cout << x << endl;
-    // // string y = "abcd";
-    // // x = y;
-    // // cout << x << endl;
-    // cout << y << endl;
+    cout << x << endl;
+    string y = "abcd";
+    x = y;
+    cout << x << endl;
+    cout << y << endl;
 
     cout << endl;
     return 0;
