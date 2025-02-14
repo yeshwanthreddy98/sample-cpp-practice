@@ -9,6 +9,7 @@ int main()
     int a = 10;
     float b = 20.101;
     fprintf(fp,"this is new file\n");
+    cout<<"this is master branch file"<<endl;
     
 
     cout << endl;
