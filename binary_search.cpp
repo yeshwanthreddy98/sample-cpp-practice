@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int binarysearch(int arr[], int key, int low, int high)
+int binarysearch(vector<int> arr, int key, int low, int high)
 {
     if (low > high)
         return -1;
@@ -17,9 +17,11 @@ int binarysearch(int arr[], int key, int low, int high)
     }
 }
 
+// iterative binary search is more faster and convinient than recursive binary search
+
 int main()
 {
-    int arr[7] = {12, 23, 34, 45, 56, 67, 78};
+    vector<int> arr = {12, 23, 34, 45, 56, 67, 78};
     cout << binarysearch(arr, 34, 0, 6);
     cout << endl;
     return 0;
